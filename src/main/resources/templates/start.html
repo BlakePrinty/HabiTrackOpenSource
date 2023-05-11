@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HabiTrack | Home</title>
+    <link rel="icon" href="/imgs/habitrack-logo.png" type="image/icon type">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/about-project.css">
+    <link rel="stylesheet" href="/css/guide.css">
+    <link rel="stylesheet" href="/css/developer.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/start.css">
+</head>
+<body>
+
+<div class="start-container">
+    <h1 class="form-title">Start Tracking</h1>
+
+    <form th:action="'/dashboard'" method="post" class="register form">
+        <label class="field" for="username">Username: </label>
+        <input class="input-field" type="text" name="username" id="username">
+
+        <label class="field" for="password">Password: </label>
+        <input class="input-field" type="text" name="password" id="password">
+
+        <input class="button" type="submit">
+    </form>
+</div>
+
+</body>
+</html>

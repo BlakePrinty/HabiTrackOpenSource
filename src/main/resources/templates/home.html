@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HabiTrack | Home</title>
+    <link rel="icon" href="/imgs/habitrack-logo.png" type="image/icon type">
+    <link rel="stylesheet" href="/css/home.css">
+</head>
+<body>
+<header class="header" id="home">
+    <nav class="nav">
+        <div class="nav-left">
+            <img src="/imgs/habitrack-logo.png" alt="" class="nav-logo">
+            <h1 class="nav-logo-title">HabiTrack</h1>
+        </div>
+
+        <div class="nav-right">
+            <ul class="nav-links-list">
+                <li class="nav-link-list-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-link-list-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-link-list-item">
+                    <a href="#developer" class="nav-link">Developer</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="header-main">
+        <h1 class="title">Track your habits, <span class="header-span title">better</span> your life.</h1>
+        <p class="desc">HabiTrack is a Java-based open-source web application designed by <span class="desc desc-span">Blake Printy</span>. It helps users achieve their goals by tracking habits they want to establish or eliminate. With HabiTrack, you can easily break bad habits or build positive ones.</p>
+        <button class="button">
+            <a href="/start" class="button-link">Start Tracking</a>
+        </button>
+    </div>
+</header>
+
+<section class="about-project" id="about">
+    <div class="project-desc">
+        <h1 class="project-desc-title">HabiTrack</h1>
+        <h2 class="project-desc-subtitle">About the Project</h2>
+        <p class="project-desc-text">Introducing HabiTrack Version 2: Unveiling an enhanced experience featuring a state-of-the-art Java backend, an elegantly redesigned and visually stunning UI, along with a cutting-edge MySQL database.</p>
+    </div>
+    <div class="project-info">
+        <div class="project-info-content left">
+            <div class="content-icons">
+                <div class="content-icons-background" id="os-out">
+                    <div class="content-icons-background" id="os-in">
+                        <svg class="content-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M16 3.383l-.924-.383-7.297 17.617.924.383 7.297-17.617zm.287 3.617l6.153 4.825-6.173 5.175.678.737 7.055-5.912-7.048-5.578-.665.753zm-8.478 0l-6.249 4.825 6.003 5.175-.679.737-6.884-5.912 7.144-5.578.665.753z"/></svg>
+                    </div>
+                </div>
+            </div>
+            <h1 class="card-title">Open-source</h1>
+            <p class="card-desc">The source code for the website is available on <a href="https://github.com/BlakePrinty/HabiTrackOS" class="card-desc card-desc-link">GitHub</a>.</p>
+        </div>
+        <div class="project-info-content right">
+            <div class="content-icons">
+                <div class="content-icons-background" id="tio-out">
+                    <div class="content-icons-background" id="tio-in">
+                        <svg class="content-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12m2.557 16h-5.115c.546 2.46 1.441 4.114 2.558 5.744 1.194-1.741 2.041-3.41 2.557-5.744m-7.157 0h-4.567c1.236 2.825 3.704 4.972 6.755 5.716-1.048-1.733-1.783-3.658-2.188-5.716m13.767 0h-4.567c-.391 1.988-1.095 3.887-2.175 5.694 3.012-.763 5.517-2.895 6.742-5.694m-14.005-6h-4.962c-.267 1.313-.267 2.685 0 4h4.915c-.119-1.329-.101-2.672.047-4m7.661 0h-5.647c-.165 1.326-.185 2.672-.053 4h5.753c.133-1.328.111-2.673-.053-4m6.977 0h-4.963c.148 1.328.166 2.671.048 4h4.915c.26-1.285.273-2.648 0-4m-12.156-7.729c-3.077.732-5.567 2.886-6.811 5.729h4.653c.435-2.042 1.178-3.985 2.158-5.729m2.355-.048c-1.089 1.77-1.91 3.453-2.463 5.777h4.927c-.534-2.246-1.337-3.948-2.464-5.777m2.368.069c1.013 1.812 1.733 3.76 2.146 5.708h4.654c-1.232-2.816-3.762-4.958-6.8-5.708"/></svg>
+                    </div>
+                </div>
+            </div>
+            <h1 class="card-title">Try it out</h1>
+            <p class="card-desc">If you would like to try out the website, feel free to log in with the following info. <br> Username: DemoUser <br> Password: DemoPassword123</p>
+        </div>
+    </div>
+</section>
+
+<section class="developer" id="developer">
+    <img class="dev-pfp" src="/imgs/habitrack-logo.png" alt="">
+    <div class="dev-info-content">
+        <h2 class="dev-title">Full Stack Developer</h2>
+        <h1 class="dev-name">Blake Printy</h1>
+        <p class="dev-about">My name is Blake Printy, I am a passionate and dedicated individual with a strong background in software development and SQL. With a certificate in software development and specialized training in SQL, I possess a solid foundation in designing and building efficient software solutions. With a keen eye for detail and a drive for innovation, I strive to create impactful and user-centric software solutions that address complex challenges. I am motivated by the ever-evolving nature of technology and am eager to contribute my skills and expertise to create cutting-edge applications.</p>
+        <ul class="dev-socials">
+            <li class="dev-link-item">
+                <a href="https://blakeprinty.github.io/" target="_blank" class="dev-link">
+                    <svg class="dev-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12m2.557 16h-5.115c.546 2.46 1.441 4.114 2.558 5.744 1.194-1.741 2.041-3.41 2.557-5.744m-7.157 0h-4.567c1.236 2.825 3.704 4.972 6.755 5.716-1.048-1.733-1.783-3.658-2.188-5.716m13.767 0h-4.567c-.391 1.988-1.095 3.887-2.175 5.694 3.012-.763 5.517-2.895 6.742-5.694m-14.005-6h-4.962c-.267 1.313-.267 2.685 0 4h4.915c-.119-1.329-.101-2.672.047-4m7.661 0h-5.647c-.165 1.326-.185 2.672-.053 4h5.753c.133-1.328.111-2.673-.053-4m6.977 0h-4.963c.148 1.328.166 2.671.048 4h4.915c.26-1.285.273-2.648 0-4m-12.156-7.729c-3.077.732-5.567 2.886-6.811 5.729h4.653c.435-2.042 1.178-3.985 2.158-5.729m2.355-.048c-1.089 1.77-1.91 3.453-2.463 5.777h4.927c-.534-2.246-1.337-3.948-2.464-5.777m2.368.069c1.013 1.812 1.733 3.76 2.146 5.708h4.654c-1.232-2.816-3.762-4.958-6.8-5.708"/></svg>
+                </a>
+            </li>
+            <li class="dev-link-item">
+                <a href="https://github.com/BlakePrinty" target="_blank" class="dev-link">
+                    <svg class="dev-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                </a>
+            </li>
+            <li class="dev-link-item">
+                <a href="https://www.linkedin.com/in/blake-printy/" target="_blank" class="dev-link">
+                    <svg class="dev-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </a>
+            </li>
+            <li class="dev-link-item">
+                <a href="https://blakeprinty.github.io/assets/documents/Blake%20Printy%20-%20Resume.pdf" target="_blank" class="dev-link">
+                    <svg class="dev-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill-rule="evenodd" clip-rule="evenodd"><path d="M3 24h19v-23h-1v22h-18v1zm17-24h-18v22h18v-22zm-1 1h-16v20h16v-20zm-2 16h-12v1h12v-1zm0-3h-12v1h12v-1zm0-3h-12v1h12v-1zm-7.348-3.863l.948.3c-.145.529-.387.922-.725 1.178-.338.257-.767.385-1.287.385-.643 0-1.171-.22-1.585-.659-.414-.439-.621-1.04-.621-1.802 0-.806.208-1.432.624-1.878.416-.446.963-.669 1.642-.669.592 0 1.073.175 1.443.525.221.207.386.505.496.892l-.968.231c-.057-.251-.177-.449-.358-.594-.182-.146-.403-.218-.663-.218-.359 0-.65.129-.874.386-.223.258-.335.675-.335 1.252 0 .613.11 1.049.331 1.308.22.26.506.39.858.39.26 0 .484-.082.671-.248.187-.165.322-.425.403-.779zm3.023 1.78l-1.731-4.842h1.06l1.226 3.584 1.186-3.584h1.037l-1.734 4.842h-1.044z"/></svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<footer class="footer">
+    <h1 class="copyright">HabiTrack © 2023</h1>
+
+    <ul class="footer-links">
+        <li class="footer-link-item">
+            <a href="#home" class="footer-link">Home</a>
+        </li>
+        <li class="footer-link-item">
+            <a href="#about" class="footer-link">About</a>
+        </li>
+        <li class="footer-link-item">
+            <a href="#developer" class="footer-link">Developer</a>
+        </li>
+    </ul>
+
+    <ul class="footer-links">
+        <li class="footer-link-item">
+            <a href="https://github.com/BlakePrinty/HabiTrackOS" target="_blank" class="footer-link">
+                <svg class="footer-link-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M16 3.383l-.924-.383-7.297 17.617.924.383 7.297-17.617zm.287 3.617l6.153 4.825-6.173 5.175.678.737 7.055-5.912-7.048-5.578-.665.753zm-8.478 0l-6.249 4.825 6.003 5.175-.679.737-6.884-5.912 7.144-5.578.665.753z"/></svg>
+            </a>
+        </li>
+        <li class="footer-link-item">
+            <a href="https://github.com/BlakePrinty" target="_blank" class="footer-link">
+                <svg class="footer-link-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            </a>
+        </li>
+        <li class="footer-link-item">
+            <a href="https://blakeprinty.github.io/" target="_blank" class="footer-link">
+                <svg class="footer-link-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12m2.557 16h-5.115c.546 2.46 1.441 4.114 2.558 5.744 1.194-1.741 2.041-3.41 2.557-5.744m-7.157 0h-4.567c1.236 2.825 3.704 4.972 6.755 5.716-1.048-1.733-1.783-3.658-2.188-5.716m13.767 0h-4.567c-.391 1.988-1.095 3.887-2.175 5.694 3.012-.763 5.517-2.895 6.742-5.694m-14.005-6h-4.962c-.267 1.313-.267 2.685 0 4h4.915c-.119-1.329-.101-2.672.047-4m7.661 0h-5.647c-.165 1.326-.185 2.672-.053 4h5.753c.133-1.328.111-2.673-.053-4m6.977 0h-4.963c.148 1.328.166 2.671.048 4h4.915c.26-1.285.273-2.648 0-4m-12.156-7.729c-3.077.732-5.567 2.886-6.811 5.729h4.653c.435-2.042 1.178-3.985 2.158-5.729m2.355-.048c-1.089 1.77-1.91 3.453-2.463 5.777h4.927c-.534-2.246-1.337-3.948-2.464-5.777m2.368.069c1.013 1.812 1.733 3.76 2.146 5.708h4.654c-1.232-2.816-3.762-4.958-6.8-5.708"/></svg>
+            </a>
+        </li>
+    </ul>
+</footer>
+
+</body>
+</html>
